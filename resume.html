@@ -1,89 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link href="style.css" rel="stylesheet">
+  <head>
 	<title>Resume</title>
-</head>
-	<header>
-	<div id = "menu">
-		<ul class = "menu">
-			<li><a href="#about" style="text-decoration:none;">About</a></li>
-			<li><a href="#skills" style="text-decoration:none;">Skills</a></li>
-			<li><a href="#projects" style="text-decoration:none;">Projects</a></li>
-			<li><a href="#resume" style="text-decoration:none;">Resume</a></li>
-			<li><a href="#contact" style="text-decoration:none;">Contact</a></li>
-		</ul>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<div id="container">
+	  <header class="bar">
+		<nav>
+		  <ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#contact">Contact</a></li>						
+		  </ul>
+		</nav>
+	  </header>
+	  
+	  <div id="content">
+		<div id="about">
+          <div class="space"></div>   
+		  <div id="name">
+		    <h1>Taylor Widman</h1>
+		    <h3>Front End Engineer</h3>
+		  </div>
+		  <h2>About Me</h2>
+		  <div class="content-block">
+			  <div class="half left">
+				<p>Street art selfies artisan gentrify forage skateboard fashion axe irony. Migas locavore ethical viral. Typewriter dreamcatcher wayfarers gluten-free, hoodie kogi fashion axe irony gastropub Kickstarter you probably haven't heard of them meggings. Meh meggings cornhole ugh vinyl, occupy pork belly normcore craft beer 8-bit swag beard Godard pug whatever. Odd Future stumptown master cleanse, kitsch post-ironic literally small batch roof party craft beer farm-to-table flannel biodiesel meh banh mi umami. Typewriter ethical street art, quinoa mustache Portland beard cold-pressed listicle health goth biodiesel before they sold out.</p>
+			  </div>
+			  <div class="half right">
+				<p>Distillery fashion axe tousled bicycle rights yr. Helvetica kale chips tote bag cronut, flannel forage church-key Vice gentrify. Migas organic Pinterest, direct trade gentrify forage brunch leggings Banksy readymade skateboard gluten-free street art health goth bicycle rights. Pour-over YOLO pop-up, mlkshk art party tote bag sustainable slow-carb. VHS fixie PBR&B pug. Distillery tattooed plaid, fap High Life Marfa craft beer Intelligentsia aesthetic. Mlkshk whatever bicycle rights gentrify stumptown kale chips, selvage Austin paleo put a bird on it gluten-free twee. Selvage Bushwick Banksy, umami synth taxidermy Neutra.</p>
+			  </div>
+		  </div>
 		</div>
-	</div>
-
-	</header>
-		<body>
-				<div class= "body">
-		<h1>Taylor Widman</h1>
-		<h3>Front-End Engineer</h3>	
-		<content>
-			<h2><a name = "about">About Me</a></h2>
-			<div id = "wrap">
-			<div class = "left">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-				elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-				enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-				voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			</div>
-			<div class = "right">
-				<p>Excepteur sint occaecat cupidatat non proident, sunt in
-				culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-				sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
+		<div id="skills">
+          <div class="space"></div> 		
+		  <h2>Technical Skills</h2>
+		  <div class="content-block">
+			<ul class="half left">
+			  <li>HTML, CSS, Javascript</li>
+			  <li>Bootstrap, JQuery, LESS</li>
+			  <li>Git, NPM, APIs, REST</li>
+			  <li>Typescript, NodeJS/Express</li>
+			</ul>
+			<ul class="half right">
+			  <li>NoSQL, SQL Databases</li>
+			  <li>Angular, PlatypusTS, PlatypusUI</li>
+			  <li>Mobile Design, Cordova</li>
+		  	  <li>Authentication, Deployment</li>
+			</ul>
+		  </div>
+		</div>
+		<div id="projects">
+          <div class="space"></div> 		
+			<h2>Projects</h2>
+			
+		    <div class="content-block">
+		    <div class="projects">
+			  <h4>Next Level Cred</h4>
+			  <p>Viral cardigan gastropub letterpress artisan Helvetica. Cardigan art party Intelligentsia asymmetrical tote bag, food truck organic scenester bicycle rights Tumblr polaroid drinking vinegar readymade butcher. </p>
 			</div>
 			
-			<h2><a name = "skills">Technical Skills</a></h2>
-				<p>HTML, CSS, Javascript, Bootstrap, JQuery, LESS, Git, NPM, APIs, REST, Typescript, NodeJS/Express</p>
-				<p>No SQL, SQL Databases, Angular, PlatypusUI, Mobile Design, Cordova, Authentication, Deployment</p>
-			<h2><a name = "projects">Projects</a></h2>
-					<p><b>This project</b></p>
-					<p>Was great and I learned a ton.</p>
-					<p><b>And This One</b></p>
-					<p>Was even better than the first one.</p>
-			<h2><a name = "resume">Experience</a></h2>
-				<h4>Mover</h4>
-					<p><i>Summer 2012</i>.</p>
-					<p>I moved stuff for money.</p>
-				<h4>Administrative Assistant</h4>
-					<p><i>Fall 2011 - Fall 2014</i>.</p>
-					<p>I organized stuff for money.</p>
-				<h4>Accounts Coordinator</h4>
-					<p><i>Fall 2015</i>.</p>
-					<p>I will intern for money.</p>
-			<h2>Education</h2>
-					<p>University of Alabama</p>
-					<p>DepotU</p>
-			<h2><a name = "contact">Contact Me</a></h2>
-			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-				<div class="row">
-					<label for="name">Name:</label><br/>
-					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="email">Email:</label><br/>
-					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="message">Message</label><br/>
-					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+			<div class="projects">
+			  <h4>Direct Trade Hashtag</h4>
+			  <p>Disrupt bicycle rights meditation McSweeney's, semiotics shabby chic selvage Neutra mlkshk tofu four loko cornhole 90's selfies gastropub. Neutra four dollar toast Odd Future, lo-fi YOLO tousled wayfarers mumblecore Tumblr. </p>
 			</div>
-			<input id="submit_button" type="submit" value="Send" />
-			</form>		
-		</content>
-		<footer>
-		<ul>
-			<li><a href="https://github.com/tpwidman" style="text-decoration:none;">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/pub/taylor-widman/61/915/657" style="text-decoration:none;">LinkedIn</a></li>
-		</footer>
-		</div>	
-		</body>
-	</html>
-		
+			
+			<div class="projects">
+			  <h4>Small Batch Letterpress </h4>
+			  <p>Jean shorts letterpress meh, Tumblr you probably haven't heard of them Godard Wes Anderson fashion axe crucifix banh mi sartorial cray asymmetrical squid. Kickstarter pour-over Shoreditch, fingerstache swag mlkshk messenger bag banjo organic Godard listicle.</p>
+		    </div>				
+		  </div>	
+		</div>
+		<div id="resume">
+          <div class="space"></div> 		
+		  <h2>Experience</h2>
+		  <div class="content-block">
+			<ul id="experience">
+			  <li>
+				<h4>Mover</h4>
+				<p class="date">March 8, 2015 - August 17, 2013</p>
+				<p class="exp-info">Here, I moved furniture for money.</p>
+			  </li>
+			  <li>
+				<h4>Student</h4>
+				<p class="date">August 7, 2011 - Present</p>
+				<p class="exp-info">Viral street art shabby chic meditation.</p>
+			  </li>
+			  <li>
+				<h4>Recent Position</h4>
+				<p class="date">September 8, 2015 - Present</p>
+				<p class="exp-info">Banksy readymade skateboard.</p>
+			  </li>
+			  <li>
+				<h4>Recent Position</h4>
+				<p class="date">September 8, 2015 - Present</p>
+				<p class="exp-info">Distillery fashion axe tousled.</p>
+			  </li>
+			</ul>
+		  </div>
+		  <h2>Education</h2>
+		  <div class="content-block">
+			<ul>
+			  <li>The University of Alabama</li>
+			  <li>DepotU</li>
+			</ul>
+		  </div>
+		</div>
+		<div id="contact">
+          <div class="space"></div> 		
+		  <h2>Contact Me</h2>
+		  <div id="contact-content">
+  		    <form>
+			  <label for="name">Name</label>
+			  <input type="text" id="name" placeholder="Smith" required>
+			  <label for="email">Email</label>
+			  <input type="email" id="email" placeholder="smith@example.com" required>
+			  <label for="message">Message</label>				
+			  <input type="text" id="message" required>
+			  <input type="submit" id="submit" value="Send">
+		    </form>
+		  </div>
+		</div>
+  	  </div>
+	  <footer class="bar">			
+	    <ul>
+		  <li><a href="https://github.com/tpwidman">Github</a></li>
+		  <li><a href="https://www.linkedin.com/pub/taylor-widman/61/915/657
+">LinkedIn</a></li>
+	    </ul>
+	    <p>&copy; 2015</p>
+	  </footer>
+	</div>
+  </body>
+</html>
