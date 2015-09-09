@@ -1,0 +1,52 @@
+ul {
+    position: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+ 	background-color: #A4C6D0;
+ text-decoration: none;
+  font-weight: 15px;
+  font-size: 15px;
+  display: inline;
+  text-align: center;
+}
+.nav {
+	position: fixed;
+	width: 100%;
+	top:0; 
+}
+.header {
+ background-color: #A4C6D0;
+ font-weight: 20;
+ font-color:#FFFFFF;
+ font-size: 15px;
+}
+.about{
+	position: center
+}
+.resume p{
+	text-indent: 50px;
+}
+
+.body {
+	text-align: center;
+}
+
+.row{
+	text-transform: uppercase;
+}
+
+#wrap{
+	width:100%;
+}
+.left { 
+	float: left;
+ 	width: 46%; 
+ }
+.right {
+	float: right;
+	width: 46%;
+}
+
